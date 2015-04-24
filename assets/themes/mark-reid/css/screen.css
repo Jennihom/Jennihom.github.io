@@ -76,7 +76,9 @@ sup { line-height: 1ex; }
 	padding: 3em 3em 1.5em 3em;
 	border: 1px solid #ccc;
 }
-
+#page{
+	margin: 20px;
+}
 /* More experimental CSS3 features */
 #page, #disqus_thread {
 	box-shadow: 2px 2px 8px #aaa;
