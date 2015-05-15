@@ -80,7 +80,7 @@ sup { line-height: 1ex; }
 	margin: 20px;
 }
 /* More experimental CSS3 features */
-#page, #disqus_thread {
+#disqus_thread {
 	box-shadow: 2px 2px 8px #aaa;
 	-webkit-box-shadow: 2px 2px 8px #aaa;
 	-moz-box-shadow: 2px 2px 8px #aaa;	
