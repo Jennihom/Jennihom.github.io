@@ -35,7 +35,7 @@ html>body { font-size:16px; }
 p { margin: 0 0 1.5em 0; text-align: justify; }
 
 a { text-decoration: none; color: #339; }
-a:hover { text-decoration: underline; color: #33f; }
+/*a:hover { text-decoration: underline; color: #33f; }*/
 a.pdf:before { 
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
@@ -197,10 +197,10 @@ ul.compact li a {
 
 /* @group Header */
 #header, #header a { color: silver; }
-#header .hover { color: transparent; }
-#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}
-#header:hover a:hover { text-decoration: none; }
-#header a:hover .hover { color: silver; }
+/*#header .hover { color: transparent; }*/
+/*#header:hover a { color: black; text-shadow: #aaa 2px 2px 3px;}*/
+/*#header:hover a:hover { text-decoration: none; }*/
+/*#header a:hover .hover { color: silver; }*/
 #header {
 	position: relative;
 	font-variant: small-caps;
@@ -233,16 +233,16 @@ ul.compact li a {
 	display: inline;
 }
 #header ul li a:hover {
-	color: blue;
-	border-bottom: 2px solid blue;
+	/*color: blue;*/
+	/*border-bottom: 2px solid blue;*/
 }
 #header .byline {
 	color: silver;
 	font-size: 10pt;
 	line-height: 75%
 }
-#header:hover .byline a { color: silver; text-shadow: none; }
-#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}
+/*#header:hover .byline a { color: silver; text-shadow: none; }*/
+/*#header:hover .byline a:hover { color: black; text-shadow: #aaa 1px 1px 2px;}*/
 
 /* @group Twitter */
 #twitter_update_list { display: inline; margin: 0; }
