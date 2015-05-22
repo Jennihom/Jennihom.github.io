@@ -207,18 +207,28 @@ ul.compact li a {
 	margin: 20px 5em;
 	/*background: #fff;*/
 }
-.jenny_post_show{
+.jenny_post_show{background: #fff;padding: 20px 15px;}
+.jenny_post_show_content{
 	max-height: 300px;
 	overflow: hidden;
-	padding: 15px;
 }
 .jenny_postlist{
 	/*padding: 20px;*/
+	position: relative;
 	background: #fff;
 	margin-bottom: 20px;
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 
+}
+.jenny_all{
+	width: 97%;
+	background: #fff;
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	/*color: ;*/
+	height: 26px;
 }
 .jenny_postlist .title{
 	height: 40px;

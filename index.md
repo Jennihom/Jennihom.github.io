@@ -14,7 +14,8 @@ tagline: Supporting tagline
 	    	</div>
 	    	<div class="time">{{ post.date | date: "%F"  }}</div>
 
-	    	<div class="jenny_post_show">{{ post.content }}</div>
+	    	<div class="jenny_post_show"><div class="jenny_post_show_content">{{ post.content }}</div></div>
+	    	<div class="jenny_all">......<div>
 	    </li>
 	  {% endfor %}
 	</ul>
