@@ -1,16 +1,23 @@
 ---
 layout: page
-title: Jenny
+title: 
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+<div class="jenny_main">
+	<ul class="posts">
+	  {% for post in site.posts %}
+	    <li class="jenny_postlist">
+	    	<div class="title">
+	    		<a  href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+	    	</div>
+	    	<div class="time">{{ post.date | date: "%F"  }}</div>
 
-<!-- <ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
- -->
+	    	<div class="jenny_post_show">{{ post.content }}</div>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>
 
 
