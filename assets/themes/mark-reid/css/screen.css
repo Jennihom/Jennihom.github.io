@@ -36,10 +36,10 @@ p { margin: 0 0 1.5em 0; text-align: justify; }
 
 a { text-decoration: none;  }
 /*a:hover { text-decoration: underline; color: #33f; }*/
-a.pdf:before { 
+/*a.pdf:before { 
 	margin-right: 1em;
 	content: url(/files/css/icon_pdf.gif); }
-
+*/
 h1,h2,h3,h4 { 
 	line-height:1em; 
 	font-size:1.5em; 
@@ -229,6 +229,7 @@ ul.compact li a {
 	font-weight: bold;
 	color: #cc3333;
 }
+.jenny_postlist .title a{color: #ff6666;font-weight: bold;}
 .jenny_postlist .time{
 	padding: 0 15px;
 	float: right;
