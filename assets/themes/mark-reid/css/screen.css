@@ -265,7 +265,7 @@ ul.compact li a {
 }
 #header .title{
 	font-family:Chewy;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	color: #fff;
 	position: absolute;
 	top: 50px;
