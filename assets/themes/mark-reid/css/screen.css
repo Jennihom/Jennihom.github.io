@@ -15,13 +15,19 @@
  * 
  * AUTHOR: Mark Reid <mark@reid.name>
  */
-
+@font-face {
+  font-family: 'Chewy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chewy'), url(http://fonts.gstatic.com/s/chewy/v7/rb3O4cUMVLYzfgbaJOdJHw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 /* @group Reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
 /* @end */
 
 body {
-	font-family: 'Microsoft yahei';
+	font-family: Chewy;
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
