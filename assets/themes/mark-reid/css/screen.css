@@ -16,7 +16,7 @@
  * AUTHOR: Mark Reid <mark@reid.name>
  */
 @font-face {
-  font-family: 'Microsoft yahei';
+  font-family: 'Chewy';
   font-style: normal;
   font-weight: 400;
   src: local('Chewy'), url(http://fonts.gstatic.com/s/chewy/v7/rb3O4cUMVLYzfgbaJOdJHw.woff2) format('woff2');
@@ -27,7 +27,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 /* @end */
 
 body {
-	font-family: Chewy;
+	font-family: Microsoft yahei;
 	background-color: whitesmoke;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
@@ -265,6 +265,7 @@ ul.compact li a {
 }
 #header .title{
 	font-family:Chewy;
+	font-weight:bold;
 	color: #fff;
 	position: absolute;
 	top: 50px;
