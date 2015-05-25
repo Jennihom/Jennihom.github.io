@@ -256,7 +256,7 @@ ul.compact li a {
 	margin: 0;
 	height: 88px;
 	padding: 1em 2em;
-	background:url('../../../images/header.png') no-repeat 20px 20px #ff6666;
+	background:url('../../../images/header.png') no-repeat 20px 20px rgb(212, 50, 32);
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	position: relative;
@@ -296,26 +296,26 @@ ul.compact li a {
 	line-height: 30px;
 	display: inline-block;
 }
-#header ul li .home{
-	background: url('../../../images/icon3.png') -2px -2px no-repeat;
-	background-size: 26px 26px;
+/*#header ul li .home{*/
+/*	background: url('../../../images/icon3.png') -2px -2px no-repeat;*/
+/*	background-size: 26px 26px;*/
 
-}
-#header ul li .archive{
-	background: url('../../../images/icon2.png') -2px -2px no-repeat;
-	background-size: 26px 26px;
+/*}*/
+/*#header ul li .archive{*/
+/*	background: url('../../../images/icon2.png') -2px -2px no-repeat;*/
+/*	background-size: 26px 26px;*/
 
-}
-#header ul li .about{
-	background: url('../../../images/icon4.png') -2px -2px no-repeat;
-	background-size: 26px 26px;
+/*}*/
+/*#header ul li .about{*/
+/*	background: url('../../../images/icon4.png') -2px -2px no-repeat;*/
+/*	background-size: 26px 26px;*/
 
-}
-#header ul li .tag{
-	background: url('../../../images/icon1.png') -2px -2px no-repeat;
-	background-size: 26px 26px;
+/*}*/
+/*#header ul li .tag{*/
+/*	background: url('../../../images/icon1.png') -2px -2px no-repeat;*/
+/*	background-size: 26px 26px;*/
 
-}
+/*}*/
 
 #header ul li a:hover {
 	/*color: blue;*/
