@@ -71,6 +71,13 @@ hr {
 sup { line-height: 1ex; }
 
 ol,ul,li{list-style: none;}
+.clearfix:after {
+  content: "\0020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
 
 #site {
 	/*max-width: 46em;*/
@@ -206,13 +213,43 @@ ul.compact li a {
 
 /* @group Header */
 #header, #header a { color: #ffffff;}
-
-
+.nav{
+	height: 35px;
+	line-height: 35px;
+	background:#2d2d2d;
+	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
+	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
+	padding: 0 5em;
+	color: #fff;
+}
+.nav li{
+	border-radius: 4px;
+	padding: 0 30px;
+	float: left;
+	font-size: 14px;
+}
+.nav li:hover{
+	background: #000;
+}
+.nav li a{color: #fff;}
 /*新加jennystyle*/
 .jenny_main{
 	margin: 20px 5em;
+	font-family: Monaco, 'Ubuntu Mono', Consolas, 微软雅黑;
 	/*background: #fff;*/
 }
+.jenny_main ul{}
+.sidebar{
+	float: right;
+    width: 27%;
+    background-color: #f7ebeb;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    /*box-shadow: 2px 4px 5px rgba(3,3,3,0.2);*/
+    /*-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);*/
+    padding: 10px;
+}
+
 .jenny_post_show{background: #fff;padding: 20px 15px;}
 .jenny_post_show_content{
 	max-height: 300px;
@@ -256,9 +293,10 @@ ul.compact li a {
 	margin: 0;
 	height: 88px;
 	padding: 1em 2em;
-	background:url('../../../images/header.png') no-repeat 20px 20px rgb(212, 50, 32);
-	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
+	background:url('../../../images/header1.png') no-repeat 80px 21px rgb(212, 50, 32);
+	background-size: 80px 71px;
+	/*box-shadow: 2px 4px 5px rgba(3,3,3,0.2);*/
+	/*-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);*/
 	position: relative;
 	/*font-variant: small-caps;*/
 	
@@ -268,8 +306,8 @@ ul.compact li a {
 	/*font-weight:bold;*/
 	color: #fff;
 	position: absolute;
-	top: 50px;
-	left: 101px;
+	top: 69px;
+    left: 181px;
 }
 #header h1 {
 	font-family: Palatino, georgia, "times new roman", serif;
