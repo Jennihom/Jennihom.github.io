@@ -28,7 +28,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,t
 
 body {
 	font-family: Microsoft yahei;
-	background-color: whitesmoke;
+	background-color: #eae8e8;
 	background-position: center -18em;
 	background-repeat: repeat-x; 
 }
@@ -78,7 +78,10 @@ ol,ul,li{list-style: none;}
   clear: both;
   visibility: hidden;
 }
-
+a:link,a:visited{
+	color: #2d2d2d;
+	/*font-style: italic;*/
+}
 #site {
 	/*max-width: 46em;*/
 	margin: 0;
@@ -221,6 +224,59 @@ ul.compact li a {
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	padding: 0 5em;
 	color: #fff;
+	/*background: #222222;
+    background: -moz-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -webkit-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -o-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: -ms-linear-gradient(bottom, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);
+    background: linear-gradient(to top, #000000 0%, #222222 50%, #3c3c3c 51%, #393939 78%, #888888 100%);*/
+}
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 50%;
+    
+ position: relative;
+ background: #ba89b6;
+ color: #fff;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
 }
 .nav li{
 	border-radius: 4px;
@@ -241,7 +297,7 @@ ul.compact li a {
 .jenny_main ul{}
 .sidebar{
 	float: right;
-    width: 27%;
+    width: 25%;
     background-color: #f7ebeb;
     border-radius: 6px;
     border: 1px solid #fff;
@@ -271,7 +327,7 @@ ul.compact li a {
 	bottom: 5px;
 	left: 15px;
 	/*color: ;*/
-	height: 26px;
+	height: 50px;
 }
 .jenny_postlist .title{
 	height: 40px;
