@@ -3,7 +3,7 @@ layout: post
 title: "bookmarks"
 description: ""
 category: 
-tags: []
+tags: [mark]
 ---
 {% include JB/setup %}
 

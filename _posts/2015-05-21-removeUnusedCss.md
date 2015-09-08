@@ -3,7 +3,7 @@ layout: post
 title: "冗余样式清理机制"
 description: ""
 category: 
-tags: [css,自动化]
+tags: [自动化]
 ---
 {% include JB/setup %}
 
